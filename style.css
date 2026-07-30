@@ -73,6 +73,16 @@ button:hover{
     margin-bottom: 15px;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #ff4040;
+}
+
 @keyframes fade{
     from{
         opacity:0;
@@ -97,7 +107,7 @@ img{
     margin: 40px 0; 
 }
 
-.Spyder.jpg{
+.market.logo{
     width: 120px;
     height: 100px;
 }
