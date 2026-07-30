@@ -179,8 +179,9 @@ img{
     .left,
     .right{
         width:100%;
+        flex:none;
         text-align:left;
-    }
+}
 
     .left p,
     .right p{
