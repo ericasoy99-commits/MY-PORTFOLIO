@@ -46,21 +46,82 @@ button:hover{
 }
 
 .info-box{
-    width: 85%;
-    max-width: 950px;
-    margin: 50px auto;
-    padding: 40px;
-    border: 2px solid white;
-    border-radius: 20px;
+    width:85%;
+    max-width:950px;
+
+    padding:40px;
+
+    border-radius:20px;
+    border:2px solid white;
 
     background:
-        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
-        url("popup.png");
+        linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
+        url("yourbackground.jpg");
 
-    background-size: cover;
-    color: white;
+    background-size:cover;
 
-    box-sizing: border-box;
+    color:white;
+
+    margin:40px auto;
+}
+
+.info-box h1{
+    text-align:center;
+    font-size:55px;
+    margin-bottom:40px;
+}
+
+.info-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:70px;
+
+}
+
+.left-column,
+.right-column{
+
+    flex:1;
+
+}
+
+.left-column h2,
+.right-column h2{
+
+    color:#ff4040;
+
+    margin-bottom:25px;
+
+}
+
+.left-column p,
+.right-column p{
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+    text-align:left;
+
+}
+
+.right-column a{
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+.right-column a:hover{
+
+    color:#ff4040;
+
 }
 
 @keyframes fade{
