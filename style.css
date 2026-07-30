@@ -46,33 +46,21 @@ button:hover{
 }
 
 .info-box{
-    display:none;
-    margin:40px auto;
-    padding:25px;
-    width: 500px;
-    background:#1e1e1e;
-    border-radius:15px;
-    border:2px solid #ff4040;
-    text-align:left;
-    animation:fade .4s ease;
-}
+    width: 85%;
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
 
-.info-box h2{
-    color:white;
-    margin-bottom:10px;
-}
+    background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)),
+        url("popup.png");
 
-.info-box p{
-    margin:10px 0;
-}
-
-.info-box ul{
-    margin-left:20px;
-}
-
-a{
+    background-size: cover;
     color: white;
-    text-decoration: none;
+
+    box-sizing: border-box;
 }
 
 @keyframes fade{
