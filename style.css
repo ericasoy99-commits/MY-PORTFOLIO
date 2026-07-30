@@ -47,13 +47,15 @@ button:hover{
 
 .info-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    gap: 50px;
+    gap: 100px;
 }
 
 .left,
 .right{
+    width: 350px;
+    flex: 0 0 350px;
     text-align: left;
 }
 
