@@ -3,7 +3,7 @@ body{
 }
 
 body{
-    background-image: url("background.jpg");
+    background-image: url("blackgold.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,6 @@ body{
     text-align:center;   /* <-- This centers the text */
 
     font-family:Arial, sans-serif;
-}
 }
 
 h1{
@@ -103,4 +102,21 @@ img{
 .Spyder.jpg{
     width: 120px;
     height: 100px;
+}
+
+.info-box {
+    display: none;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+
+    background-image: url("blackgold.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
