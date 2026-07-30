@@ -49,7 +49,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 160px;
+    gap: 100px;
 }
 
 .left,
