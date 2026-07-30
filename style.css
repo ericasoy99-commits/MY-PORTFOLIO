@@ -3,7 +3,7 @@ body{
 }
 
 body{
-    background-image: url("mainbackground.png");
+    background-image: url("supermain.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,10 +49,10 @@ button:hover{
     display:none;
     margin:40px auto;
     padding:25px;
-    width: 100px;%;
-    background:#000000;
-    border-radius:15px; 
-    border:2px solid #ffffff;
+    width:70%;
+    background:#1e1e1e;
+    border-radius:15px;
+    border:2px solid #ff4040;
     text-align:left;
     animation:fade .4s ease;
 }
@@ -110,7 +110,7 @@ img{
     padding: 20px;
     box-sizing: border-box;
 
-    background-image: url("gradiant.jpg");
+    background-image: url("popup.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
