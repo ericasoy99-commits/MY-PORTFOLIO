@@ -45,83 +45,32 @@ button:hover{
     color:rgb(0, 0, 0);
 }
 
-.info-box{
-    width:85%;
-    max-width:950px;
+.info-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
 
-    padding:40px;
+.left,
+.right{
+    flex: 1;
+}
 
-    border-radius:20px;
-    border:2px solid white;
-
-    background:
-        linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
-        url("popup.png");
-
-    background-size:cover;
-
-    color:white;
-
-    margin:40px auto;
+.left p,
+.right p{
+    font-size: 22px;
+    line-height: 1.8;
 }
 
 .info-box h1{
-    text-align:center;
-    font-size:55px;
-    margin-bottom:40px;
+    font-size: 55px;
+    margin-bottom: 20px;
 }
 
-.info-content{
-
-    display:flex;
-
-    justify-content:space-between;
-
-    gap:70px;
-
-}
-
-.left-column,
-.right-column{
-
-    flex:1;
-
-}
-
-.left-column h2,
-.right-column h2{
-
-    color:#ff4040;
-
-    margin-bottom:25px;
-
-}
-
-.left-column p,
-.right-column p{
-
-    font-size:22px;
-
-    line-height:1.8;
-
-    margin-bottom:20px;
-
-    text-align:left;
-
-}
-
-.right-column a{
-
-    color:white;
-
-    text-decoration:none;
-
-}
-
-.right-column a:hover{
-
-    color:#ff4040;
-
+.info-box h3{
+    color: #ff4040;
+    margin-bottom: 15px;
 }
 
 @keyframes fade{
@@ -154,6 +103,7 @@ img{
 }
 
 .info-box {
+    display: none;
     width: 500px;
     margin: 20px auto;
     padding: 20px;
