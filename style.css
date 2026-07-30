@@ -105,11 +105,11 @@ img{
 }
 
 .info-box {
-    display: none;
-    width: 360px;
+    width: 90%;
+    max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 15px;
+    box-sizing: border-box;
 
     background-image: url("whiteblack.jpg");
     background-size: cover;
@@ -119,4 +119,20 @@ img{
     color: white;
     border: 2px solid white;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+body{
+    margin:0;
+    padding:20px;
+    text-align:center;
+    box-sizing:border-box;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+img{
+    max-width:100%;
+    height:auto;
 }
