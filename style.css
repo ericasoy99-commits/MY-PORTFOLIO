@@ -56,7 +56,7 @@ button:hover{
 
     background:
         linear-gradient(rgba(0,0,0,.70),rgba(0,0,0,.70)),
-        url("yourbackground.jpg");
+        url("popup.png");
 
     background-size:cover;
 
@@ -165,7 +165,6 @@ img{
     background-repeat: no-repeat;
 
     color: white;
-    border: 2px solid white;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
